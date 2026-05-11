@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body class="bg-gray-200">
+    <!-- hero & header -->
+     
+    <div  class="relative bg-gradient-to-br from-[#0f172a] via-[#064e3b] to-[#022c22] min-h-[600px] flex items-center overflow-hidden">
+  
+      <!-- Arxa fon dekoru -->
+      <div class="absolute top-0 right-0 -translate-y-12 translate-x-12 blur-3xl opacity-20 z-0">
+        <div class="aspect-square h-[500px] rounded-full bg-emerald-500"></div>
+      </div>
+    
+      <div class="max-w-screen mx-auto w-full grid lg:grid-cols-2 items-center relative z-10">
+        
+        <!-- SOL TƏRƏF: MƏTN VƏ SEARCH -->
+        <div class="py-20 px-6 sm:px-8 text-center lg:text-left">
+          
+          <!-- LOGO -->
+          <div class="flex items-center justify-center lg:justify-start gap-2 mb-10">
+            <img src="logo.png" alt="logo" class="w-30" />
+          </div>
+    
+          <!-- TITLE -->
+          <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-[#fbf6ee] leading-[1.1]">
+            Sənin Növbəti <br>
+            <span class="text-emerald-400">Dünyanı Kəşf Et</span>
+          </h1>
+    
+          <!-- SLOGAN -->
+          <p class="mt-8 text-lg sm:text-xl text-gray-300 max-w-xl max-lg:mx-auto leading-relaxed">
+            Biz sadəcə kitab satmırıq — düşüncənizi formalaşdıran və sizinlə əbədi qalacaq 
+            <span class="text-white font-semibold italic border-b-2 border-emerald-500/50">təcrübələr</span> təqdim edirik.
+          </p>
+    
+          <!-- SEARCH BAR -->
+          <div class="mt-10 flex justify-center lg:justify-start">
+            <div class="flex items-center px-5 py-4 rounded-2xl bg-white/5 backdrop-blur-xl border border-white/10 focus-within:border-emerald-400/50 focus-within:bg-white/10 transition-all duration-500 max-w-md w-full shadow-2xl">
+              <svg class="w-5 h-5 text-emerald-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+              <input type="text" placeholder="Kitab, müəllif və ya janr axtar..." class="w-full bg-transparent outline-none text-[#fbf6ee] placeholder-gray-500 text-base" />
+            </div>
+          </div>
+    
+          
+          <div class="mt-10 flex flex-wrap gap-4 justify-center lg:justify-start">
+           
+            <a href="#mybasket"
+              onclick="openClose()"
+              class="relative flex items-center justify-center px-4 py-2 bg-white/5 hover:bg-white/10 text-slate-900 font-bold rounded-xl transition-all active:scale-95">
+
+                <i class="fa-solid fa-basket-shopping text-[25px] text-white"></i>
+
+                <span id="proCount"
+                class="absolute -top-1 -right-1 bg-red-500 text-white text-xs min-w-[20px] h-5 px-1 rounded-full flex items-center justify-center">
+                   
+                </span>
+
+            </a>
+            <a href="#Favorites"  onclick="loadPage('about')" class="flex items-center justify-center px-4 py-2 bg-white/5 hover:bg-white/10 text-white font-medium rounded-xl border border-white/10 transition-all">
+              <i class="fa-solid fa-heart text-[25px]"></i>
+            </a>
+          </div>
+        </div>
+    
+        <!-- SAĞ TƏRƏF: ŞƏKİL -->
+        <div class="relative h-[400px] hidden lg:block lg:h-full w-full lg:min-h-[700px]">
+
+          <div class="absolute inset-0 bg-gradient-to-r from-[#0f172a] via-transparent to-transparent z-10 hidden lg:block"></div>
+          <div class="absolute inset-0 bg-gradient-to-t from-[#022c22] via-transparent to-transparent z-10 lg:hidden"></div>
+          
+          <img class="absolute inset-0 w-full h-full object-cover grayscale-[100%] hover:grayscale-0 transition-all duration-700" 
+               src="https://i.pinimg.com/1200x/e6/fd/92/e6fd923ad079c35b2d59e56f77fa6c0e.jpg" 
+               alt="Premium Book Store">
+          
+        
+          <div class="absolute bottom-10 right-5 z-20 bg-emerald-500/10 backdrop-blur-md p-4 rounded-lg border border-white/10 hidden sm:block">
+            <p class="text-white text-sm font-bold">+50,000 Nəşr</p>
+            <p class="text-emerald-400 text-xs">Hər gün yenilənir</p>
+          </div>
+        </div>
+    
+      </div>
+    </div>
+
+      <main >
+        
+        <section id="content">
+          <h2 class="text-4xl sm:text-5xl md:text-6xl lg:text-4xl text-center m-10 border-b-2 font-extrabold text-[#034531] leading-[1.1]">Müəlliflərin Fikirləri</h2>
+          <div class="container mx-auto w-[90%] max-w-[900px] mt-10">
+           
+              <div id="product-list" class="grid grid-cols-1 lg:grid-cols-3 gap-5 min-h-[250px]">
+                  
+                  <!-- cards -->
+                  
+          
+              </div>
+          
+          
+              <div class="pagination mt-[30px] flex items-center justify-center gap-5">
+                  <button id="prevBtn" class="px-5 py-2.5 border border-[#dcdce4] bg-white rounded-lg font-semibold cursor-pointer transition duration-200 hover:not-disabled:bg-[#f0f0f5] hover:not-disabled:border-[#c0c0c8] disabled:opacity-50 disabled:cursor-not-allowed">
+                      Geri
+                  </button>
+                  
+                  <span id="pageNumber" class="text-sm text-[#444] font-medium">
+                      Səhifə: 1
+                  </span>
+                  
+                  <button id="nextBtn" class="px-5 py-2.5 border border-[#dcdce4] bg-white rounded-lg font-semibold cursor-pointer transition duration-200 hover:not-disabled:bg-[#f0f0f5] hover:not-disabled:border-[#c0c0c8] disabled:opacity-50 disabled:cursor-not-allowed">
+                      İrəli
+                  </button>
+              </div>
+          </div>
+        </section>
+  
+        <section>
+          <h2 class="text-4xl sm:text-5xl md:text-6xl lg:text-4xl text-center m-10 border-b-2 font-extrabold text-[#034531] leading-[1.1]">BestSellers</h2>
+          <div class="p-8 min-h-screen">
+        
+  
+            <div id="bookcards" class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+              
+            </div>
+            
+          </div>
+        
+      </main>
+
+      <div class="flex justify-end">
+        <a href="#content"
+           class="flex items-center justify-center m-5  w-12 h-12 bg-[#064e3b] hover:bg-emerald-400 text-slate-900 rounded-full cursor-pointer transition-all active:scale-95">
+          <i class="fa-solid fa-up-long text-[20px] text-white"></i>
+        </a>
+      </div>
+      <div id="modal" class="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 hidden overflow-y-auto">
+      
+        <main class="bg-white w-[95%] max-w-7xl rounded-2xl p-4 md:p-8 relative mx-auto my-10">
+      
+          <button onclick="openClose()" 
+          class="absolute top-4 right-4 text-3xl font-bold cursor-pointer">
+            ×
+          </button>
+      
+          <div class="max-w-2xl mx-auto lg:max-w-7xl">
+      
+            <div class="mb-12">
+              <h1 class="text-2xl font-bold text-slate-900">
+                Shopping Cart
+              </h1>
+            </div>
+      
+            <div class="grid gap-12 lg:grid-cols-3">
+      
+
+              <div class="lg:col-span-2">
+
+                <ul class="space-y-6" id="sebet" >
+
+          <!-- products -->
+                </ul>
+              
+              </div>
+      
+  
+              <div
+              class="bg-gray-100 border border-slate-200 rounded-md p-6 h-max md:sticky md:top-5">
+      
+                <h2 class="text-xl font-semibold text-slate-900">
+                 Detallar
+                </h2>
+      
+                <ul class="text-slate-600 font-medium mt-8 space-y-4">
+      
+                  <li class="flex flex-wrap gap-4 text-sm">
+                    Ümumi qiymət
+                    <span id="subtotal" class="ml-auto text-slate-900 font-semibold">
+                    
+                    </span>
+                  </li>
+
+
+                  <li class="flex flex-wrap gap-4 text-sm">
+                    Ümumi endirim
+                    <span id="discount"  class="ml-auto text-slate-900 font-semibold">
+                      $0.00
+                    </span>
+                  </li>
+
+      
+                  <li class="flex flex-wrap gap-4 text-sm text-slate-900">
+                    Yekun
+                    <span class="ml-auto font-semibold" id="total">
+                   
+                    </span>
+                  </li>
+      
+                </ul>
+
+                <hr class="my-6 border-slate-300" />
+      
+                <!-- PROMO -->
+                <form class="max-w-sm">
+      
+                  <label class="mb-2 block text-sm font-medium text-slate-900">
+                    Promo kodla Endirim Qazan(%)
+                </label>
+                <div class="flex flex-col gap-2 sm:flex-row">
+                    <input 
+                        id="promo-input"
+                        type="text"
+                        placeholder="Promo kodu daxil et"
+                        class="px-3 py-2.5 text-sm text-slate-900 rounded-md bg-white w-full border border-slate-300 outline-none">
+                    <button
+                        onclick="applyPromo()"
+                        class="py-2 px-4 text-sm rounded-md font-semibold text-white border border-emerald-600 bg-emerald-600 hover:bg-emerald-700 cursor-pointer">
+                        Tətbiq Et
+                    </button>
+                </div>
+                <p id="promo-msg" class="text-xs mt-2"></p>
+      
+                </form>
+                <div class="flex justify-end">
+                  <button class="flex items-end justify-end py-2 px-8 text-sm rounded-md font-semibold text-white border border-emerald-600 bg-emerald-600 hover:bg-emerald-700 cursor-pointer">
+                    Satın al
+                  </button>
+                </div>
+              </div>
+              
+      
+            </div>
+      
+          </div>
+      
+        </main>
+      
+      </div>
+      
+      
+      
+      </div>
+
+
+
+      <footer class="bg-gradient-to-br from-[#0f172a] via-[#064e3b] to-[#022c22] pt-16 pb-8 px-4 md:px-8">
+        <div class="max-w-7xl mx-auto">
+           <div class="flex justify-between items-center flex-col lg:flex-row flex-wrap gap-x-6 gap-y-8 text-center">
+              <a href="#"
+                 class="min-h-12 inline-block focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">
+                 <img src="logo.png" alt="logo" class="w-30" />
+              </a>
+     
+              <p></p>
+           </div>
+     
+           <hr class="my-8 border-neutral-700" />
+     
+           <div class="flex items-center justify-between gap-6 flex-wrap flex-col md:flex-row">
+              <div class="max-md:order-1">
+                 <p class="text-slate-400 text-sm">© Bizdən alın, razı qalın.</p>
+              </div>
+     
+              <ul class="flex flex-wrap gap-6">
+                 <li>
+                    <a href="#"
+                       class="flex items-center bg-slate-800 dark:bg-neutral-800 w-8 h-8 p-2 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                       aria-label="Facebook">
+                       <svg xmlns="http://www.w3.org/2000/svg" class="size-full fill-slate-50" viewBox="0 0 155.139 155.139"
+                          aria-hidden="true">
+                          <path
+                             d="M89.584 155.139V84.378h23.742l3.562-27.585H89.584V39.184c0-7.984 2.208-13.425 13.67-13.425l14.595-.006V1.08C115.325.752 106.661 0 96.577 0 75.52 0 61.104 12.853 61.104 36.452v20.341H37.29v27.585h23.814v70.761z"
+                             data-original="#010002" />
+                       </svg>
+                    </a>
+                 </li>
+                 <li>
+                    <a href="#"
+                       class="flex items-center bg-slate-800 dark:bg-neutral-800 w-8 h-8 p-2 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                       aria-label="LinkedIn">
+                       <svg xmlns="http://www.w3.org/2000/svg" class="size-full fill-slate-50" viewBox="0 0 24 24"
+                          aria-hidden="true">
+                          <path
+                             d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909A2.884 2.884 0 0 0 2.882 0"
+                             data-original="#000000" />
+                       </svg>
+                    </a>
+                 </li>
+                 <li>
+                    <a href="#"
+                       class="flex items-center bg-slate-800 dark:bg-neutral-800 w-8 h-8 p-2 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                       aria-label="X">
+                       <svg xmlns="http://www.w3.org/2000/svg" class="size-full fill-slate-50" viewBox="0 0 1226.37 1226.37"
+                          aria-hidden="true">
+                          <path
+                             d="M727.348 519.284 1174.075 0h-105.86L680.322 450.887 370.513 0H13.185l468.492 681.821L13.185 1226.37h105.866l409.625-476.152 327.181 476.152h357.328L727.322 519.284zM582.35 687.828l-47.468-67.894-377.686-540.24H319.8l304.797 435.991 47.468 67.894 396.2 566.721H905.661L582.35 687.854z"
+                             data-original="#000000" />
+                       </svg>
+                    </a>
+                 </li>
+                 <li>
+                    <a href="#"
+                       class="flex items-center bg-slate-800 dark:bg-neutral-800 w-8 h-8 p-2 rounded-full focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
+                       aria-label="Github">
+                       <svg xmlns="http://www.w3.org/2000/svg" class="size-full fill-slate-50" viewBox="0 0 438.549 438.549"
+                          aria-hidden="true">
+                          <path
+                             d="M409.132 114.573q-29.41-50.392-79.798-79.8C295.736 15.166 259.057 5.365 219.271 5.365c-39.781 0-76.472 9.804-110.063 29.408-33.596 19.605-60.192 46.204-79.8 79.8Q0 164.966 0 224.63c0 47.78 13.94 90.745 41.827 128.906q41.827 57.245 108.063 79.227c5.14.954 8.945.283 11.419-1.996 2.475-2.282 3.711-5.14 3.711-8.562q0-.855-.144-15.417a2550 2550 0 0 1-.144-25.406l-6.567 1.136c-4.187.767-9.469 1.092-15.846 1-6.374-.089-12.991-.757-19.842-1.999q-10.28-1.848-19.13-8.559c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559q-6.139-7.995-12.419-10.848l-1.999-1.431c-1.332-.951-2.568-2.098-3.711-3.429q-1.712-1.996-2.568-3.997-.86-2.002 1.427-3.289c1.525-.859 4.281-1.276 8.28-1.276l5.708.853c3.807.763 8.516 3.042 14.133 6.851q8.42 5.71 13.846 14.842c4.38 7.806 9.657 13.754 15.846 17.847q9.277 6.138 18.699 6.136 9.42-.001 16.274-1.423 6.848-1.43 12.847-4.285 2.57-19.135 13.988-29.41c-10.848-1.14-20.601-2.857-29.264-5.14-8.658-2.286-17.605-5.996-26.835-11.14-9.235-5.137-16.896-11.516-22.985-19.126-6.09-7.614-11.088-17.61-14.987-29.979q-5.852-18.56-5.852-42.826c0-23.035 7.52-42.637 22.557-58.817q-10.566-25.977 1.997-58.24c5.52-1.715 13.706-.428 24.554 3.853 10.85 4.283 18.794 7.952 23.84 10.994s9.089 5.618 12.135 7.708q26.556-7.42 54.818-7.421c28.262-.001 37.117 2.474 54.823 7.421l10.849-6.849c7.419-4.57 16.18-8.758 26.262-12.565 10.088-3.805 17.802-4.853 23.134-3.138 8.562 21.509 9.325 40.922 2.279 58.24 15.036 16.18 22.559 35.787 22.559 58.817 0 16.178-1.958 30.497-5.853 42.966-3.9 12.471-8.941 22.457-15.125 29.979q-9.286 11.282-23.131 18.986c-9.232 5.14-18.182 8.85-26.84 11.136-8.662 2.286-18.415 4.004-29.263 5.146q14.841 12.845 14.842 40.539v60.237c0 3.422 1.19 6.279 3.572 8.562 2.379 2.279 6.136 2.95 11.276 1.995q66.244-21.98 108.068-79.226c27.88-38.161 41.825-81.126 41.825-128.906-.01-39.771-9.818-76.454-29.414-110.049"
+                             data-original="#000000" />
+                       </svg>
+                    </a>
+                 </li>
+              </ul>
+           </div>
+        </div>
+     </footer>
+
+
+   <script src="index.js"></script> 
+    <!-- <script>
+      const content = document.getElementById('content')
+      loadPage(window.location.hash.slice(1) || 'home')
+
+      function loadPage(page) {
+          const ajax = new XMLHttpRequest()
+          ajax.open('GET', `${page}.htm`)
+          ajax.send()
+          ajax.onload = function() {
+              content.innerHTML = this.responseText
+              
+          }
+      }
+    </script> -->
+  </body>
+</html>
