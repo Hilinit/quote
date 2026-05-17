@@ -7,7 +7,7 @@ const limit = 3
 let allData = []
 
 async function getData() {
-    const res = await fetch('https://69c53df08a5b6e2dec2c09e9.mockapi.io/notes')
+    const res = await fetch('notes.json')
     allData = await res.json()
     renderData()
 }
@@ -43,7 +43,7 @@ let bookcards = document.getElementById('bookcards')
 let bookData = []
 
 async function getBooks() {
-    const res = await fetch('https://69c53df08a5b6e2dec2c09e9.mockapi.io/quote_main_data')
+    const res = await fetch('quote_main_data.json')
     bookData = await res.json()
     renderBooks()
 }

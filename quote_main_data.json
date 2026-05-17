@@ -1,0 +1,632 @@
+[
+    {
+      "title": "Küçük Prens",
+      "author": "Antoine de Saint-Exupéry",
+      "page_count": 96,
+      "genre": "Fəlsəfi nağıl",
+      "price": 7.5,
+      "image_url": "https://i.pinimg.com/736x/6e/ba/49/6eba49e045abeb0f7ed2d6d3f2370d5f.jpg",
+      "best_quote": "Gözlər kordur, insan ancaq ürəyi ilə aydın görə bilər."
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "page_count": 328,
+      "genre": "Antitopiya",
+      "price": 11.9,
+      "image_url": "https://i.pinimg.com/736x/e0/ab/3d/e0ab3d634e60a1e073e9f1ffd12cb54f.jpg",
+      "best_quote": "Kim keçmişə nəzarət edirsə, gələcəyə də o nəzarət edir."
+    },
+    {
+      "title": "Kürk Mantolu Madonna",
+      "author": "Sabahattin Ali",
+      "page_count": 160,
+      "genre": "Romantik",
+      "price": 7.5,
+      "image_url": "https://i.pinimg.com/736x/f6/93/a6/f693a60e2f00095668a74b9284e28432.jpg",
+      "best_quote": "Dünyada bana hiçbir şey, tabiatın sükutu kadar çekici gelmemişti."
+    },
+    {
+      "title": "Cinayət və Cəza",
+      "author": "Fyodor Dostoevsky",
+      "page_count": 672,
+      "genre": "Psixoloji roman",
+      "price": 15,
+      "image_url": "https://i.pinimg.com/736x/4d/39/04/4d39047330beae8cf177abe385e2e99a.jpg",
+      "best_quote": "Zəka yalnız irəli getmək üçündür, lakin insanı ayaqda saxlayan duyğulardır."
+    },
+    {
+      "title": "Tutunamayanlar",
+      "author": "Oğuz Atay",
+      "page_count": 724,
+      "genre": "Modernist Roman",
+      "price": 22,
+      "image_url": "https://i.pinimg.com/736x/74/3e/5f/743e5f874d5dc43e4eef485039e5e4e1.jpg",
+      "best_quote": "Kelimeler, albayım, bazı anlamlara gelmiyor."
+    },
+    {
+      "title": "Kimyagər",
+      "author": "Paulo Coelho",
+      "page_count": 188,
+      "genre": "Fəlsəfi roman",
+      "price": 9.9,
+      "image_url": "https://i.pinimg.com/736x/3a/54/e6/3a54e64382b644e0610e510c8a13666a.jpg",
+      "best_quote": "Bir şeyi həqiqətən istədikdə, bütün kainat onu həyata keçirməyin üçün sənə kömək edər."
+    },
+    {
+      "title": "Saatleri Ayarlama Enstitüsü",
+      "author": "Ahmet Hamdi Tanpınar",
+      "page_count": 382,
+      "genre": "Satirik Roman",
+      "price": 13,
+      "image_url": "https://i.pinimg.com/736x/14/02/c9/1402c9033e47d65ef76c514867bf0fdb.jpg",
+      "best_quote": "Zaman tek bir şeydir ve bölünmezdir."
+    },
+    {
+      "title": "Şəkər Portağalı",
+      "author": "José Mauro de Vasconcelos",
+      "page_count": 200,
+      "genre": "Dram",
+      "price": 8.5,
+      "image_url": "https://i.pinimg.com/736x/77/45/58/7745589f7ea8bf55afafd2b5721a978b.jpg",
+      "best_quote": "Daha çox danış, dedim. Xoşuna gəlirmi? Çox. Əlimi tutarsanmı?"
+    },
+    {
+      "title": "İçimizdeki Şeytan",
+      "author": "Sabahattin Ali",
+      "page_count": 256,
+      "genre": "Roman",
+      "price": 9,
+      "image_url": "https://i.pinimg.com/1200x/f6/d4/d4/f6d4d4eb74023267301283c6fd46388e.jpg",
+      "best_quote": "İstediğimiz gibi yaşayamayacaksak, yaşamanın ne manası var?"
+    },
+    {
+      "title": "Səfillər",
+      "author": "Victor Hugo",
+      "page_count": 1463,
+      "genre": "Tarixi roman",
+      "price": 25.5,
+      "image_url": "https://i.pinimg.com/736x/64/bc/19/64bc19e88fb48ec67c76bf1bf1b01e25.jpg",
+      "best_quote": "Sevmək — bir insanın qəlbindəki tanrını görməkdir."
+    },
+    {
+      "title": "Kuyucaklı Yusuf",
+      "author": "Sabahattin Ali",
+      "page_count": 224,
+      "genre": "Klasik",
+      "price": 8.5,
+      "image_url": "https://i.pinimg.com/736x/c3/82/f8/c382f843f976e75659c56004316fbb1f.jpg",
+      "best_quote": "İnsanın içindeki bir şey kırıldıktan sonra her şey anlamsızlaşır."
+    },
+    {
+      "title": "Heyvanıstan",
+      "author": "George Orwell",
+      "page_count": 112,
+      "genre": "Siyasi satira",
+      "price": 6.9,
+      "image_url": "https://i.pinimg.com/736x/15/e1/08/15e108f1675749efa0d500d3e8af8fdb.jpg",
+      "best_quote": "Bütün heyvanlar bərabərdir, amma bəzi heyvanlar digərlərindən daha bərabərdir."
+    },
+    {
+      "title": "Bülbülü Öldürmək",
+      "author": "Harper Lee",
+      "page_count": 281,
+      "genre": "Dram",
+      "price": 12,
+      "image_url": "https://i.pinimg.com/736x/01/40/f7/0140f751a962a3127e1cf1976feb35ba.jpg",
+      "best_quote": "Başqasını anlamaq üçün onun ayaqqabılarını geyinib gəzmək lazımdır."
+    },
+    {
+      "title": "İnce Memed",
+      "author": "Yaşar Kemal",
+      "page_count": 436,
+      "genre": "Destansı Roman",
+      "price": 14,
+      "image_url": "https://i.pinimg.com/736x/10/fd/31/10fd3101e0ed1ad5300d38a2c07c002c.jpg",
+      "best_quote": "Konuşan insan, öyle kolay kolay dertten ölmez."
+    },
+    {
+      "title": "Yad",
+      "author": "Albert Camus",
+      "page_count": 123,
+      "genre": "Eksistensial roman",
+      "price": 8.5,
+      "image_url": "https://i.pinimg.com/736x/8c/7b/70/8c7b7081939b2bed7b0a0c2d606f9784.jpg",
+      "best_quote": "Bu gün anam öldü. Bəlkə də dünən, bilmirəm."
+    },
+    {
+      "title": "Aşk",
+      "author": "Elif Şafak",
+      "page_count": 420,
+      "genre": "Tasavvuf",
+      "price": 16.5,
+      "image_url": "https://m.media-amazon.com/images/I/4166+eX+oQL.jpg",
+      "best_quote": "Kader, yolun kendisi değil, yol ayrımıdır."
+    },
+    {
+      "title": "Sırça Köşk",
+      "author": "Sabahattin Ali",
+      "page_count": 144,
+      "genre": "Öykü",
+      "price": 6,
+      "image_url": "https://m.media-amazon.com/images/I/718yG6uMvXL.jpg",
+      "best_quote": "Dünyada en korkunç şey, insanın kendi kendisiyle baş başa kalmasıdır."
+    },
+    {
+      "title": "Faust",
+      "author": "Johann Wolfgang von Goethe",
+      "page_count": 504,
+      "genre": "Faciə",
+      "price": 15,
+      "image_url": "https://m.media-amazon.com/images/I/81bH6TqA9iL.jpg",
+      "best_quote": "Yalnız azadlığı və həyatı hər gün fəth edən kəs ona layiqdir."
+    },
+    {
+      "title": "Çalıkuşu",
+      "author": "Reşat Nuri Güntekin",
+      "page_count": 544,
+      "genre": "Klasik",
+      "price": 13.5,
+      "image_url": "https://m.media-amazon.com/images/I/71+vC4B97OL.jpg",
+      "best_quote": "İnsan, ruhundaki özlem kadar büyüktür."
+    },
+    {
+      "title": "Farenheyt 451",
+      "author": "Ray Bradbury",
+      "page_count": 249,
+      "genre": "Antitopiya",
+      "price": 10.5,
+      "image_url": "https://m.media-amazon.com/images/I/81E152HnF+L.jpg",
+      "best_quote": "Bizə lazım olan kitablar deyil, o kitabların içində olanlardır."
+    },
+    {
+      "title": "Beyaz Zambaklar Ülkesinde",
+      "author": "Grigory Petrov",
+      "page_count": 140,
+      "genre": "İnkişaf",
+      "price": 6.5,
+      "image_url": "https://m.media-amazon.com/images/I/71uV25j6G0L.jpg",
+      "best_quote": "Həyat hər zaman irəli doğru axır."
+    },
+    {
+      "title": "Aylak Adam",
+      "author": "Yusuf Atılgan",
+      "page_count": 192,
+      "genre": "Modernist",
+      "price": 9.5,
+      "image_url": "https://m.media-amazon.com/images/I/51A9IuV-hML.jpg",
+      "best_quote": "Birden seni sevdiğimi anladım."
+    },
+    {
+      "title": "Məhkəmə",
+      "author": "Franz Kafka",
+      "page_count": 256,
+      "genre": "Sürreal roman",
+      "price": 10.5,
+      "image_url": "https://m.media-amazon.com/images/I/815qYnNnLGL.jpg",
+      "best_quote": "Məntiq sarsılmaz ola bilər, ancaq yaşamaq istəyən insanın qarşısında dayana bilməz."
+    },
+    {
+      "title": "Don Kixot",
+      "author": "Miguel de Cervantes",
+      "page_count": 863,
+      "genre": "Satirik roman",
+      "price": 18,
+      "image_url": "https://m.media-amazon.com/images/I/81fU0+T30vL.jpg",
+      "best_quote": "Həqiqət hər şeydən üstündür."
+    },
+    {
+      "title": "Mai ve Siyah",
+      "author": "Halit Ziya Uşaklıgil",
+      "page_count": 450,
+      "genre": "Edebiyat",
+      "price": 12,
+      "image_url": "https://m.media-amazon.com/images/I/81M+845zW9L.jpg",
+      "best_quote": "Hayat bazen siyah bir gece kadar karanlıktır."
+    },
+    {
+      "title": "Qraf Monte-Kristo",
+      "author": "Alexandre Dumas",
+      "page_count": 1276,
+      "genre": "Macəra",
+      "price": 24,
+      "image_url": "https://m.media-amazon.com/images/I/71fL9W7T3iL.jpg",
+      "best_quote": "Bütün insan hikməti iki sözdən ibarətdir: gözləmək və ümid etmək."
+    },
+    {
+      "title": "Huzur",
+      "author": "Ahmet Hamdi Tanpınar",
+      "page_count": 416,
+      "genre": "Klasik",
+      "price": 14,
+      "image_url": "https://m.media-amazon.com/images/I/71k42Z-3G+L.jpg",
+      "best_quote": "Biz ne kadar huzurluysak dünya da o kadar huzurludur."
+    },
+    {
+      "title": "Martin İden",
+      "author": "Jack London",
+      "page_count": 480,
+      "genre": "Avtobioqrafik roman",
+      "price": 13.5,
+      "image_url": "https://m.media-amazon.com/images/I/815qYnNnLGL.jpg",
+      "best_quote": "Həyat bir yuxudur, lakin ondan oyanmaq qeyri-mümkündür."
+    },
+    {
+      "title": "Memleketimden İnsan Manzaraları",
+      "author": "Nazım Hikmet",
+      "page_count": 500,
+      "genre": "Şiir",
+      "price": 20,
+      "image_url": "https://m.media-amazon.com/images/I/51A9IuV-hML.jpg",
+      "best_quote": "Hasret, en büyük gurbettir."
+    },
+    {
+      "title": "Üzüklərin Hökmdarı",
+      "author": "J.R.R. Tolkien",
+      "page_count": 1178,
+      "genre": "Fentezi",
+      "price": 35,
+      "image_url": "https://m.media-amazon.com/images/I/71OZYM8z6LL.jpg",
+      "best_quote": "Qızıl olan hər şey parlamaz, hər veyllənən yoldan azmaz."
+    },
+    {
+      "title": "Dokuzuncu Hariciye Koğuşu",
+      "author": "Peyami Safa",
+      "page_count": 128,
+      "genre": "Psikolojik",
+      "price": 7,
+      "image_url": "https://m.media-amazon.com/images/I/5176QoZ4m8L.jpg",
+      "best_quote": "Ağrı, ruhun bedene attığı bir çığlıktır."
+    },
+    {
+      "title": "Taun",
+      "author": "Albert Camus",
+      "page_count": 288,
+      "genre": "Fəlsəfi roman",
+      "price": 11.5,
+      "image_url": "https://m.media-amazon.com/images/I/71fL9W7T3iL.jpg",
+      "best_quote": "İnsanda nifrət ediləcək şeylərdən daha çox, təqdir ediləcək şeylər var."
+    },
+    {
+      "title": "Yaban",
+      "author": "Yakup Kadri Karaosmanoğlu",
+      "page_count": 214,
+      "genre": "Edebiyat",
+      "price": 10,
+      "image_url": "https://m.media-amazon.com/images/I/51A9IuV-hML.jpg",
+      "best_quote": "Toprak, insanın asıl vatanıdır."
+    },
+    {
+      "title": "Əli və Nino",
+      "author": "Kurban Said",
+      "page_count": 288,
+      "genre": "Tarixi roman",
+      "price": 10,
+      "image_url": "https://m.media-amazon.com/images/I/71u+k4B97OL.jpg",
+      "best_quote": "Bizim dünyamızda bir qadın üçün ən yaxşı sığınacaq bir kişinin qəlbidir."
+    },
+    {
+      "title": "Fatih-Harbiye",
+      "author": "Peyami Safa",
+      "page_count": 160,
+      "genre": "Klasik",
+      "price": 8,
+      "image_url": "https://m.media-amazon.com/images/I/4166+eX+oQL.jpg",
+      "best_quote": "Doğu ve Batı, insanın iki yarısıdır."
+    },
+    {
+      "title": "Usta və Marqarita",
+      "author": "Mikhail Bulgakov",
+      "page_count": 480,
+      "genre": "Fentezi, Satira",
+      "price": 13,
+      "image_url": "https://m.media-amazon.com/images/I/81dG2r6M5PL.jpg",
+      "best_quote": "Əlyazmalar yanmır!"
+    },
+    {
+      "title": "Bereketli Topraklar Üzerinde",
+      "author": "Orhan Kemal",
+      "page_count": 448,
+      "genre": "Realist",
+      "price": 12.5,
+      "image_url": "https://m.media-amazon.com/images/I/718yG6uMvXL.jpg",
+      "best_quote": "Alın teri, ekmeğin en tatlı tuzudur."
+    },
+    {
+      "title": "Qoca və Dəniz",
+      "author": "Ernest Hemingway",
+      "page_count": 128,
+      "genre": "Povest",
+      "price": 7,
+      "image_url": "https://m.media-amazon.com/images/I/71uV25j6G0L.jpg",
+      "best_quote": "İnsan məğlub olmaq üçün yaradılmayıb. İnsanı məhv etmək olar, amma məğlub etmək olmaz."
+    },
+    {
+      "title": "Eylül",
+      "author": "Mehmet Rauf",
+      "page_count": 320,
+      "genre": "Psikolojik",
+      "price": 9,
+      "image_url": "https://m.media-amazon.com/images/I/5176QoZ4m8L.jpg",
+      "best_quote": "Her başlangıç, bir bitişin müjdecisidir."
+    },
+    {
+      "title": "Dəli Kür",
+      "author": "Ismayil Shykhly",
+      "page_count": 384,
+      "genre": "Tarixi roman",
+      "price": 11.5,
+      "image_url": "https://m.media-amazon.com/images/I/71OZYM8z6LL.jpg",
+      "best_quote": "Kişi özünü o vaxt tapır ki, nədənsə keçməyi bacarır."
+    },
+    {
+      "title": "Çayhane",
+      "author": "Sabahattin Ali",
+      "page_count": 120,
+      "genre": "Öykü",
+      "price": 5.5,
+      "image_url": "https://m.media-amazon.com/images/I/819z01Qc7jL.jpg",
+      "best_quote": "İyilik, insanın içindeki en büyük hazinedir."
+    },
+    {
+      "title": "Üç Müşketyor",
+      "author": "Alexandre Dumas",
+      "page_count": 700,
+      "genre": "Tarixi macəra",
+      "price": 16.5,
+      "image_url": "https://m.media-amazon.com/images/I/81M+845zW9L.jpg",
+      "best_quote": "Hamı bir nəfər üçün, bir nəfər hamı üçün!"
+    },
+    {
+      "title": "Huzursuzluk",
+      "author": "Zülfü Livaneli",
+      "page_count": 160,
+      "genre": "Dram",
+      "price": 10,
+      "image_url": "https://m.media-amazon.com/images/I/51A9IuV-hML.jpg",
+      "best_quote": "Merhamet zulmün merhemidir."
+    },
+    {
+      "title": "Açlıq Oyunları",
+      "author": "Suzanne Collins",
+      "page_count": 374,
+      "genre": "Distopik fantastika",
+      "price": 14,
+      "image_url": "https://m.media-amazon.com/images/I/81b1Q30gC8L.jpg",
+      "best_quote": "Ümid qorxudan daha güclü olan yeganə şeydir."
+    },
+    {
+      "title": "Veda",
+      "author": "Ayşe Kulin",
+      "page_count": 392,
+      "genre": "Tarihi",
+      "price": 15,
+      "image_url": "https://m.media-amazon.com/images/I/4166+eX+oQL.jpg",
+      "best_quote": "Geçmişin yükü, geleceğin kapısını kapatır."
+    },
+    {
+      "title": "Çevrilmə",
+      "author": "Franz Kafka",
+      "page_count": 112,
+      "genre": "Novella",
+      "price": 7,
+      "image_url": "https://m.media-amazon.com/images/I/81bH6TqA9iL.jpg",
+      "best_quote": "Qorxu onu o qədər dəyişdirmişdi ki, özü də bunu hiss etmirdi."
+    },
+    {
+      "title": "Serenad",
+      "author": "Zülfü Livaneli",
+      "page_count": 484,
+      "genre": "Aşk",
+      "price": 18,
+      "image_url": "https://m.media-amazon.com/images/I/51A9IuV-hML.jpg",
+      "best_quote": "Müzik, ruhun sessiz konuşmasıdır."
+    },
+    {
+      "title": "Qara Kitab",
+      "author": "Orhan Pamuk",
+      "page_count": 476,
+      "genre": "Postmodern roman",
+      "price": 15,
+      "image_url": "https://m.media-amazon.com/images/I/81M+845zW9L.jpg",
+      "best_quote": "Sirr gizlədildiyi yerdə deyil, onu axtaranın gözlərindədir."
+    },
+    {
+      "title": "Anayurt Oteli",
+      "author": "Yusuf Atılgan",
+      "page_count": 160,
+      "genre": "Klasik",
+      "price": 8.5,
+      "image_url": "https://m.media-amazon.com/images/I/51A9IuV-hML.jpg",
+      "best_quote": "Herkesin bir hücresi vardır."
+    },
+    {
+      "title": "Milçəklər Tanrısı",
+      "author": "William Golding",
+      "page_count": 224,
+      "genre": "Distopik roman",
+      "price": 9.5,
+      "image_url": "https://m.media-amazon.com/images/I/81fU0+T30vL.jpg",
+      "best_quote": "Qaydalar olmasa, biz heyvanlardan fərqlənmərik."
+    },
+    {
+      "title": "Məsumiyyət Muzeyi",
+      "author": "Orhan Pamuk",
+      "page_count": 592,
+      "genre": "Romantika",
+      "price": 17.5,
+      "image_url": "https://m.media-amazon.com/images/I/81fU0+T30vL.jpg",
+      "best_quote": "Həyatımın ən xoşbəxt anı olduğunu bilmirdim."
+    },
+    {
+      "title": "Ulysses",
+      "author": "James Joyce",
+      "page_count": 730,
+      "genre": "Modernist",
+      "price": 25,
+      "image_url": "https://m.media-amazon.com/images/I/71OZYM8z6LL.jpg",
+      "best_quote": "Səhv kəşf qapısıdır."
+    },
+    {
+      "title": "Kılıç Yarası Gibi",
+      "author": "Ahmet Altan",
+      "page_count": 450,
+      "genre": "Tarihi",
+      "price": 14.5,
+      "image_url": "https://m.media-amazon.com/images/I/51A9IuV-hML.jpg",
+      "best_quote": "Hayat, bir anlık parıltıdır."
+    },
+    {
+      "title": "Şibumi",
+      "author": "Trevanian",
+      "page_count": 432,
+      "genre": "Triller",
+      "price": 14.5,
+      "image_url": "https://m.media-amazon.com/images/I/81bH6TqA9iL.jpg",
+      "best_quote": "Şibumi sadəliyin içindəki mükəmməllikdir."
+    },
+    {
+      "title": "Bir Gün Tek Başına",
+      "author": "Vedat Türkali",
+      "page_count": 650,
+      "genre": "Siyasi",
+      "price": 19,
+      "image_url": "https://m.media-amazon.com/images/I/718yG6uMvXL.jpg",
+      "best_quote": "Sevda, bir direniştir."
+    },
+    {
+      "title": "Ağ Diş",
+      "author": "Jack London",
+      "page_count": 320,
+      "genre": "Macəra",
+      "price": 10,
+      "image_url": "https://m.media-amazon.com/images/I/71u+k4B97OL.jpg",
+      "best_quote": "Vəhşi təbiət qanun tanımır, yalnız sağ qalmağı tanıyır."
+    },
+    {
+      "title": "İshak",
+      "author": "Onat Kutlar",
+      "page_count": 120,
+      "genre": "Öykü",
+      "price": 8,
+      "image_url": "https://m.media-amazon.com/images/I/5176QoZ4m8L.jpg",
+      "best_quote": "Anılar, kalbin kilitli kapılarıdır."
+    },
+    {
+      "title": "Robinzon Kruzo",
+      "author": "Daniel Defoe",
+      "page_count": 288,
+      "genre": "Macəra",
+      "price": 9,
+      "image_url": "https://m.media-amazon.com/images/I/71fL9W7T3iL.jpg",
+      "best_quote": "İnsan dözə bildiyi qədər yaşayır."
+    },
+    {
+      "title": "Kardeşimin Hikayesi",
+      "author": "Zülfü Livaneli",
+      "page_count": 330,
+      "genre": "Aşk",
+      "price": 14,
+      "image_url": "https://m.media-amazon.com/images/I/51A9IuV-hML.jpg",
+      "best_quote": "Sevgi, her türlü karanlığı aydınlatır."
+    },
+    {
+      "title": "Qulliverin Səyahətləri",
+      "author": "Jonathan Swift",
+      "page_count": 304,
+      "genre": "Satirik fentezi",
+      "price": 9.5,
+      "image_url": "https://m.media-amazon.com/images/I/81M+845zW9L.jpg",
+      "best_quote": "Ağıl nə qədər kor olsa, cəsarət o qədər artar."
+    },
+    {
+      "title": "Ölü Yatırım",
+      "author": "Aziz Nesin",
+      "page_count": 220,
+      "genre": "Mizah",
+      "price": 9,
+      "image_url": "https://m.media-amazon.com/images/I/718yG6uMvXL.jpg",
+      "best_quote": "Gülme, hayata karşı duruştur."
+    },
+    {
+      "title": "İlahi Komediya",
+      "author": "Dante Alighieri",
+      "page_count": 712,
+      "genre": "Epik poema",
+      "price": 20,
+      "image_url": "https://m.media-amazon.com/images/I/71OZYM8z6LL.jpg",
+      "best_quote": "Bura girənlər, bütün ümidlərinizi geridə buraxın."
+    },
+    {
+      "title": "Lüzumsuz Adam",
+      "author": "Sait Faik Abasıyanık",
+      "page_count": 150,
+      "genre": "Öykü",
+      "price": 7.5,
+      "image_url": "https://m.media-amazon.com/images/I/819z01Qc7jL.jpg",
+      "best_quote": "Sevmek, bir insanı sevmekle başlar her şey."
+    },
+    {
+      "title": "Dekameron",
+      "author": "Giovanni Boccaccio",
+      "page_count": 688,
+      "genre": "Novella",
+      "price": 17,
+      "image_url": "https://m.media-amazon.com/images/I/815qYnNnLGL.jpg",
+      "best_quote": "Gülüş kədərin ən yaxşı dərmanıdır."
+    },
+    {
+      "title": "Şair Evlenmesi",
+      "author": "İbrahim Şinasi",
+      "page_count": 60,
+      "genre": "Tiyatro",
+      "price": 4.5,
+      "image_url": "https://m.media-amazon.com/images/I/4166+eX+oQL.jpg",
+      "best_quote": "Güzellik, akılla birleşince değer kazanır."
+    },
+    {
+      "title": "Yüz İllik Tənhalıq",
+      "author": "Gabriel García Márquez",
+      "page_count": 417,
+      "genre": "Sehrli realizm",
+      "price": 14.2,
+      "image_url": "https://m.media-amazon.com/images/I/81M+845zW9L.jpg",
+      "best_quote": "Həyat insanın yaşadıqları deyil, xatırladıqlarıdır."
+    },
+    {
+      "title": "Araba Sevdası",
+      "author": "Recaizade Mahmut Ekrem",
+      "page_count": 250,
+      "genre": "Klasik",
+      "price": 10,
+      "image_url": "https://m.media-amazon.com/images/I/5176QoZ4m8L.jpg",
+      "best_quote": "Görünüş, her zaman gerçeği yansıtmaz."
+    },
+    {
+      "title": "Qürur və Qərəz",
+      "author": "Jane Austen",
+      "page_count": 432,
+      "genre": "Romantika",
+      "price": 11,
+      "image_url": "https://m.media-amazon.com/images/I/71fL9W7T3iL.jpg",
+      "best_quote": "Xoşbəxtlik, tamamilə təsadüflərə bağlı bir şeydir."
+    },
+    {
+      "title": "Handan",
+      "author": "Halide Edib Adıvar",
+      "page_count": 280,
+      "genre": "Klasik",
+      "price": 11,
+      "image_url": "https://m.media-amazon.com/images/I/4166+eX+oQL.jpg",
+      "best_quote": "Mektuplar, ruhun aynasıdır."
+    },
+    {
+      "title": "Səs-küy və Hiddət",
+      "author": "William Faulkner",
+      "page_count": 326,
+      "genre": "Cənub qotikası",
+      "price": 12,
+      "image_url": "https://m.media-amazon.com/images/I/81R5hA+jN6L.jpg",
+      "best_quote": "Döyüş sahəsi yalnız insanın axmaqlığını göstərir."
+    }
+  ]
